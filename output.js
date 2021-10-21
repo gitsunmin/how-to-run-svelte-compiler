@@ -17,7 +17,7 @@ import {
 } from "svelte/internal";
 
 function add_css(target) {
-	append_styles(target, "svelte-1fq1f1l", "div.svelte-1fq1f1l{background-color:orange}");
+	append_styles(target, "svelte-17q3uc1", "div.svelte-17q3uc1{background-color:orange}.cl.svelte-17q3uc1{color:red}");
 }
 
 function create_fragment(ctx) {
@@ -40,7 +40,7 @@ function create_fragment(ctx) {
 			t3 = space();
 			button = element("button");
 			button.textContent = "클릭";
-			attr(div, "class", "svelte-1fq1f1l");
+			attr(div, "class", "cl svelte-17q3uc1");
 		},
 		m(target, anchor) {
 			insert(target, h1, anchor);
